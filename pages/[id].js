@@ -53,7 +53,7 @@ export default function Incription({ inscription, config }) {
       <main className={styles.mainContainer}>
         <div className={styles.contentContainer}>
           <div className={styles.imageContainer}>
-            <Image src={`https://ordinals.com/content/${inscription.id}`}
+            <Image src={`https://ord.ordscan.xyz/content/${inscription.id}`}
                    fill
                    style={{ objectFit: "contain" }}
                    priority
@@ -74,7 +74,7 @@ function HeaderInfo({ inscription }) {
     <div className={styles.headerContainer}>
       <h1>{`Inscription #${inscription.inscription_number}`}</h1>
       <HeaderItem name="ID" value={inscription.id} copyButton/>
-      <Button text="View on Ordinals.com" href={`https://ordinals.com/inscription/${inscription.id}`} openTab style={{
+      <Button text="View on ord.ordscan.xyz" href={`https://ordinals.com/inscription/${inscription.id}`} openTab style={{
         margin: "0.5rem 0.5rem 0.5rem auto",
         fontWeight: "normal",
         fontSize: "1rem"

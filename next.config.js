@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'ordinals.com',
+        hostname: 'ord.ordscan.xyz',
         port: '',
         pathname: '/content/**',
       },
